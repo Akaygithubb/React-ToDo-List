@@ -1,0 +1,122 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+nav{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.header{
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.header>a{
+  text-decoration: none;
+  color: black;
+  margin: 20px
+  ;
+}
+
+.container{
+  background-color: grey;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container>form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1{
+  text-align: center;
+  color: cyan;
+  margin: 25px;
+  font-size: 40px;
+}
+
+input,textarea,button{
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 11px 0;
+  font-size: 1.2rem;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(23, 20, 20);
+  color: white;
+}
+
+.task{
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  align-items: center;
+}
+.task span{
+  color: grey;
+}
+
+.task>div{
+  width: 100%;
+}
+.task button{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.6rem;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+background-color: crimson;
+}
+
+
+
+.task button:hover{
+  background-color: red;
+}
+
+
+.About{
+  background-color: lime;
+  width: 100%;
+  height: 100vh;
+}
+.Contact{
+  background-color: rgb(255, 0, 55);
+  width: 100%;
+  height: 100vh;
+}
+
+
+footer{
+  background-color: yellow;
+  width: 100%;
+  height: 300px;
+}
+
+.User{
+  background-color: rgb(0, 242, 255);
+  width: 100%;
+  height: 100vh;
+}
